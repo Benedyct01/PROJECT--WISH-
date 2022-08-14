@@ -6287,10 +6287,11 @@ img.hover-shadow {
 	font-family: 'Regular';
 	overflow: hidden;
   background-color: #f1f1f1;
-  padding: 5px 2px!important; /* Large padding which will shrink on scroll (using JS) */
+  padding: 0px!important; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
+	height: 80px;
 	/*
 	height: 100vh;
 	overflow: auto;
@@ -7198,10 +7199,11 @@ img.hover-shadow {
 	font-family: 'Regular';
 	overflow: hidden;
   background-color: #f1f1f1;
-  padding: 5px 2px!important; /* Large padding which will shrink on scroll (using JS) */
+  padding: 0px!important; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
+	height: 80px;
 	/*
 	height: 100vh;
 	overflow: auto;
