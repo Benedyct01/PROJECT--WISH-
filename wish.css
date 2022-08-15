@@ -6357,6 +6357,8 @@ img.hover-shadow {
 	.icons{}
 	
 .shopingbag{
+	width: 100%;
+	max-width:20px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -6367,6 +6369,8 @@ img.hover-shadow {
 	display: block;
 }
 .star{
+	width: 100%;
+	max-width:20px!important;
 	position: relative;
 }
 .star span{
@@ -6376,7 +6380,10 @@ img.hover-shadow {
 	left: 0px;
 	display: block;
 }
-
+	.avatar{
+	width: 100%;
+	max-width:20px!important;
+	}
 .sidebar {
   height: 100%;
 	width: 0;
@@ -7269,6 +7276,8 @@ img.hover-shadow {
 	.icons{}
 	
 .shopingbag{
+	width: 100%;
+	max-width:20px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -7280,6 +7289,8 @@ img.hover-shadow {
 }
 .star{
 	position: relative;
+	width: 100%;
+	max-width:20px!important;
 }
 .star span{
 	border-radius: 50%;
@@ -7288,7 +7299,10 @@ img.hover-shadow {
 	left: 0px;
 	display: block;
 }
-
+	.avatar{
+	width: 100%;
+	max-width:20px!important;
+	}
 .sidebar {
   height: 100%;
 	width: 0;
