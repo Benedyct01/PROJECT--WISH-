@@ -133,7 +133,7 @@
   height: 100%;
 	width: 0;
   position: fixed;
-  z-index: 100;
+  z-index: 1;
   top: 0;
   right: 0;
   background-color:#EFE1E2;
@@ -4545,6 +4545,8 @@ img.hover-shadow {
 	
 	
 .shopingbag{
+	width: 100%;
+	max-width: 40px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -4555,6 +4557,8 @@ img.hover-shadow {
 	display: block;
 }
 .star{
+	width: 100%;
+	max-width: 40px!important;
 	position: relative;
 }
 .star span{
@@ -4564,7 +4568,10 @@ img.hover-shadow {
 	left: 0px;
 	display: block;
 }
-
+	.avatar{
+		width: 100%;
+	max-width: 40px!important;
+	}
 .sidebar {
   height: 100%;
 	width: 0;
@@ -4806,11 +4813,13 @@ img.hover-shadow {
 }
 .arrivals:hover{
 	height: 40px;
+margin-left: 62%!important;
 	margin-top: -12%;
 	background-color: black;
 }
 .arrivals:active{
 	height: 40px;
+margin-left: 62%!important;
 	margin-top: -12%;
 	background-color: orange;
 }
@@ -5450,6 +5459,8 @@ img.hover-shadow {
 	.icons{}
 	
 .shopingbag{
+	width: 100%;
+	max-width: 40px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -5460,6 +5471,8 @@ img.hover-shadow {
 	display: block;
 }
 .star{
+	width: 100%;
+	max-width: 40px!important;
 	position: relative;
 }
 .star span{
@@ -5469,7 +5482,10 @@ img.hover-shadow {
 	left: 0px;
 	display: block;
 }
-
+	.avatar{
+		width: 100%;
+	max-width: 40px!important;
+	}
 .sidebar {
   height: 100%;
 	width: 0;
@@ -5711,19 +5727,22 @@ img.hover-shadow {
 }
 .arrivals:hover{
 	height: 40px;
+margin-left: 69%!important;
 	margin-top: -12%;
 	background-color: black;
 }
 .arrivals:active{
 	height: 40px;
+margin-left: 69%!important;
 	margin-top: -12%;
 	background-color: orange;
 }
 
 .borders {    
-	margin-top: -12%;
+	
 	background-color: bisque;
 	width:10%!important;
+	margin-top: -12%;
 	margin-left: 80%!important;
     height: 40px;
 	line-height: 40px;
@@ -5732,7 +5751,8 @@ img.hover-shadow {
 
   }
 .borders:hover {    
-	margin-top: -12%;
+margin-top: -12%;
+	margin-left: 80%!important;
 	background-color: black;
 	color: white !important;
     height: 40px;
@@ -5741,7 +5761,8 @@ img.hover-shadow {
 
   }
 .borders a:hover {    
-	margin-top: -12%;
+margin-top: -12%;
+	margin-left: 80%!important;
 	text-decoration: none;
     height: 40px;
 	line-height: 40px;
@@ -5749,7 +5770,8 @@ img.hover-shadow {
 
   }
 .borders a:active {    
-	margin-top: -12%;
+margin-top: -12%;
+	margin-left: 80%!important;
 	background-color: orange;
     height: 40px;
 	line-height: 40px;
@@ -6291,7 +6313,7 @@ img.hover-shadow {
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
-	
+	height: 80px;
 	/*
 	height: 100vh;
 	overflow: auto;
@@ -6358,7 +6380,7 @@ img.hover-shadow {
 	
 .shopingbag{
 	width: 100%;
-	max-width:20px!important;
+	max-width: 40px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -6370,7 +6392,7 @@ img.hover-shadow {
 }
 .star{
 	width: 100%;
-	max-width:20px!important;
+	max-width: 40px!important;
 	position: relative;
 }
 .star span{
@@ -6381,8 +6403,8 @@ img.hover-shadow {
 	display: block;
 }
 	.avatar{
-	width: 100%;
-	max-width:20px!important;
+		width: 100%;
+	max-width: 40px!important;
 	}
 .sidebar {
   height: 100%;
@@ -6631,27 +6653,31 @@ img.hover-shadow {
 }
 .arrivals:hover{
 	height: 40px;
-	margin-top: 4%;
+margin-left: 69%!important;
+	margin-top: -12%;
 	background-color: black;
 }
 .arrivals:active{
 	height: 40px;
-	margin-top: 4%;
+margin-left: 69%!important;
+	margin-top: -12%;
 	background-color: orange;
 }
 
 .borders {    
-	margin-top: -12%;
+	
 	background-color: bisque;
 	width:10%!important;
 		font-size: 20px!important;
+	margin-top: -12%;
 	margin-left: 80%!important;
     height: 40px;
 	text-align: center!important;
 
   }
 .borders:hover {    
-	margin-top: 4%;
+margin-top: -12%;
+	margin-left: 80%!important;
 	background-color: black;
 	color: white !important;
     height: 40px;
@@ -6660,7 +6686,8 @@ img.hover-shadow {
 
   }
 .borders a:hover {    
-	margin-top: 4%;
+margin-top: -12%;
+	margin-left: 80%!important;
 	text-decoration: none;
     height: 40px;
 	line-height: 40px;
@@ -6668,7 +6695,8 @@ img.hover-shadow {
 
   }
 .borders a:active {    
-	margin-top: 4%;
+margin-top: -12%;
+	margin-left: 80%!important;
 	background-color: orange;
     height: 40px;
 	line-height: 40px;
@@ -7210,7 +7238,7 @@ img.hover-shadow {
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
-	
+	height: 80px;
 	/*
 	height: 100vh;
 	overflow: auto;
@@ -7277,7 +7305,7 @@ img.hover-shadow {
 	
 .shopingbag{
 	width: 100%;
-	max-width:20px!important;
+	max-width:40px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -7288,9 +7316,9 @@ img.hover-shadow {
 	display: block;
 }
 .star{
-	position: relative;
 	width: 100%;
-	max-width:20px!important;
+	max-width:40px!important;
+	position: relative;
 }
 .star span{
 	border-radius: 50%;
@@ -7300,8 +7328,8 @@ img.hover-shadow {
 	display: block;
 }
 	.avatar{
-	width: 100%;
-	max-width:20px!important;
+		width: 100%;
+	max-width:40px!important;
 	}
 .sidebar {
   height: 100%;
@@ -7545,12 +7573,14 @@ img.hover-shadow {
 }
 .arrivals:hover{
 	height: 40px;
-	margin-top: 4%;
+	margin-left: 65%!important;
+	margin-top: -11%;
 	background-color: black;
 }
 .arrivals:active{
 	height: 40px;
-	margin-top: 4%;
+margin-left: 65%!important;
+	margin-top: -11%;
 	background-color: orange;
 }
 
@@ -7564,8 +7594,9 @@ img.hover-shadow {
 	text-align: center;
 
   }
-.borders:hover {    
-	margin-top: 4%;
+.borders:hover {   
+		margin-left: 76%!important;
+	margin-top: -12.5%;
 	background-color: black;
 	color: white !important;
     height: 40px;
@@ -7574,7 +7605,8 @@ img.hover-shadow {
 
   }
 .borders a:hover {    
-	margin-top: 4%;
+margin-left: 76%!important;
+	margin-top: -12.5%;
 	text-decoration: none;
     height: 40px;
 	line-height: 40px;
@@ -7582,7 +7614,8 @@ img.hover-shadow {
 
   }
 .borders a:active {    
-	margin-top: 4%;
+margin-left: 76%!important;
+	margin-top: -12.5%;
 	background-color: orange;
     height: 40px;
 	line-height: 40px;
