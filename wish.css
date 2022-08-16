@@ -3646,6 +3646,8 @@ img.hover-shadow {
 	
 	
 .shopingbag{
+	width: 100%;
+	max-width: 60px;
 	position: relative;
 }
 .shopingbag span{
@@ -3656,6 +3658,8 @@ img.hover-shadow {
 	display: block;
 }
 .star{
+	width: 100%;
+	max-width: 60px;
 	position: relative;
 }
 .star span{
@@ -3665,7 +3669,10 @@ img.hover-shadow {
 	left: 0px;
 	display: block;
 }
-
+	.avatar{
+		width: 100%;
+	max-width: 60px;
+	}
 .sidebar {
   height: 100%;
 	width: 0;
@@ -4546,7 +4553,7 @@ img.hover-shadow {
 	
 .shopingbag{
 	width: 100%;
-	max-width: 40px!important;
+	max-width: 50px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -4558,7 +4565,7 @@ img.hover-shadow {
 }
 .star{
 	width: 100%;
-	max-width: 40px!important;
+	max-width: 50px!important;
 	position: relative;
 }
 .star span{
@@ -4570,7 +4577,7 @@ img.hover-shadow {
 }
 	.avatar{
 		width: 100%;
-	max-width: 40px!important;
+	max-width: 50px!important;
 	}
 .sidebar {
   height: 100%;
@@ -4820,8 +4827,7 @@ margin-left: 62%!important;
 .arrivals:active{
 	height: 40px;
 margin-left: 62%!important;
-	margin-top: -12%;
-	background-color: orange;
+	margin-top: -12%;	background-color: orange;
 }
 
 .borders {    
@@ -5460,7 +5466,7 @@ img.hover-shadow {
 	
 .shopingbag{
 	width: 100%;
-	max-width: 40px!important;
+	max-width: 50px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -5472,7 +5478,7 @@ img.hover-shadow {
 }
 .star{
 	width: 100%;
-	max-width: 40px!important;
+	max-width: 50px!important;
 	position: relative;
 }
 .star span{
@@ -5484,7 +5490,7 @@ img.hover-shadow {
 }
 	.avatar{
 		width: 100%;
-	max-width: 40px!important;
+	max-width: 50px!important;
 	}
 .sidebar {
   height: 100%;
@@ -6331,7 +6337,8 @@ img.hover-shadow {
 }
 
 #navbarshrink #logo {
-  font-size: 20px!important;
+	font-weight: bold;
+  font-size: 30px!important;
   transition: 0.4s;
 }
 
@@ -6380,7 +6387,7 @@ img.hover-shadow {
 	
 .shopingbag{
 	width: 100%;
-	max-width: 40px!important;
+	max-width: 45px!important;
 	position: relative;
 }
 .shopingbag span{
@@ -6392,7 +6399,7 @@ img.hover-shadow {
 }
 .star{
 	width: 100%;
-	max-width: 40px!important;
+	max-width: 45px!important;
 	position: relative;
 }
 .star span{
@@ -6404,7 +6411,7 @@ img.hover-shadow {
 }
 	.avatar{
 		width: 100%;
-	max-width: 40px!important;
+	max-width: 45px!important;
 	}
 .sidebar {
   height: 100%;
@@ -7256,6 +7263,7 @@ img.hover-shadow {
 }
 
 #navbarshrink #logo {
+	font-weight: bold;
   font-size: 20px!important;
   transition: 0.4s;
 }
